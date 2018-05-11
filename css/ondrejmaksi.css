@@ -13,8 +13,8 @@ body {
 }
 
 .text-wrapper {
-  width: 400px;
-  margin: 50px;
+  width: 500px;
+  margin: 100px;
 }
 
 .name {
@@ -24,10 +24,15 @@ body {
   line-height: 52px;
 }
 
-.text {
+p {
   color: rgba(0, 0, 0, 0.8);
   font-size: 19px;
   line-height: 34px;
   margin: 32px 0 33px;
   font-weight: 300;
+}
+
+h3 {
+  margin-top: 40px;
+  /* text-align: center; */
 }
