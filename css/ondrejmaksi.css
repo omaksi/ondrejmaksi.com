@@ -13,7 +13,7 @@ body {
 }
 
 .text-wrapper {
-  max-width: 500px;
+  max-width: 400px;
   margin: 100px;
 }
 
@@ -25,10 +25,10 @@ body {
 }
 
 a {
-  color:rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 a:hover {
-  color:rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 p {
