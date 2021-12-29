@@ -46,6 +46,12 @@ h3 {
   line-height: 34px;
 }
 
+img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 @media (max-width: 500px) {
   .text-wrapper {
     margin: 30px;
