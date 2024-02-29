@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>
-      Rýchle prehľadávanie cloudových úložísk s S3 protokolom s použitím
+      Rýchle prehľadávanie S3 cloudových úložísk s použitím
       relačnej databázy
     </title>
     <meta charset="UTF-8" />
@@ -11,14 +11,15 @@
   <body>
     <header>
       <h1>
-        Rýchle prehľadávanie cloudových úložísk s S3 protokolom s použitím
-        relačnej databázy
+        Multiparametrické prehľadávanie S3 cloudových úložísk s použitím relačnej databázy
+      
       </h1>
       <h2>Ondrej Makši</h2>
     
 
     <ul>
-      <li>Meno školiteľa: škoiteľa ešte hľadám</li>
+      <li>Skoliteľ: školiteľa ešte hľadám</li>
+      <li>Konzultant: konzultanta ešte hľadám</li>
       <li>Kontakt: maksi2@uniba.sk</li>
     </ul>
 
@@ -32,7 +33,8 @@
     <p>
       S3 kompatbilné dátové úložiská sa za posledné desaťročia stali štandardom pre
       ukladanie súborov v cloude, tieto však poskytujú obmedzené vyhľadávacie
-      operácie nad metadátami týchto súborov, preto je potrebné tieto metadáta skladovať
+      operácie nad metadátami týchto súborov ako sú napríklad veľkosť, čas zápisu, 
+      alebo reťazec nachádzajúci sa v názve. Preto je potrebné tieto metadáta skladovať
       a spracúvať externe. S3 tak isto ukladá súbory iba systémom kľúč, hodnota,
       teda neponúka klasickú stromovú štruktúru bežných file systémov. Hĺadám
       riešenie ktoré by umožnilo tieto operácie, a umožnilo flexibilnejšie
@@ -45,7 +47,7 @@
     <ol>
       <li>
         Naprogramovať gateway/proxy ktorá bude v databáze spravovať metadáta
-        k súborom
+        k súborom a umožní okrem základných operácií aj vyhľadávanie v metadátach a prechádzanie stromovej štruktúry
       </li>
       <li>
         Naprogramovať jednoduché webové rozhranie ktoré bude demonštrovať
@@ -78,6 +80,7 @@
     <ul>
       <li><a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html">Amazon S3 API Reference</a></li>
       <li><a href="https://www.baeldung.com/cs/storing-tree-in-rdb">Storing a Tree Structure in a Relational Database</a></li>
+      <li>...</li>
     </ul>
     </section>
   </main>
